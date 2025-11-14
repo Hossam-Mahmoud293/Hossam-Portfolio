@@ -1,22 +1,23 @@
-# Portfolio — Project Structure
+# Journey as a Front-End Developer — Portfolio
 
-This project is organized for clarity and scalability.
+A modern single-page portfolio for **Hossam Mahmoud**, showcasing story, projects, skills, testimonials, and contact in a polished UI.
 
-## Structure
-- `assets/`
-  - `css/` — global styles
-    - `styles.css`
-  - `js/` — scripts
-    - `script.js`
-  - `img/` — images and icons
-    - `favicon.svg`
-  - `fonts/` — local webfonts (placeholder)
-- `index.html` — site entry point
+## Tech Stack
 
-## Notes
-- External libraries are loaded via CDN (GSAP, ScrollTrigger, Google Fonts).
-- Use `assets/img/` for any local images you add later.
-- Add local fonts into `assets/fonts/` and import them in `assets/css/styles.css` via `@font-face` if needed.
+- HTML5
+- Modern CSS (Grid, Flexbox, clamp, custom properties)
+- Vanilla JavaScript (ES6+)
+- GSAP & ScrollTrigger (smooth animations)
+- GitHub REST API (dynamic projects)
+- Responsive design (mobile-first)
+- Accessibility (skip link, keyboard navigation, reduced motion)
+- Formspree (contact form)
 
-## Development
-Open `index.html` in a local server (recommended) to ensure assets and relative paths work consistently across browsers.
+## Features
+
+- Hero section with responsive layout and optimized images
+- About & Story timeline with smooth scroll animations
+- Projects loaded from GitHub with tech tags
+- Skills with animated progress bars
+- Testimonials carousel
+- Contact form with validation and Formspree integration
