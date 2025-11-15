@@ -1017,7 +1017,9 @@ window.addEventListener("DOMContentLoaded", () => {
       if (window.innerWidth > 1000) setOpen(false);
     });
     document.addEventListener("click", (e) => {
-      if (!mainNav.contains(e.target) && e.target !== navToggle) setOpen(false);
+      if (!mainNav.contains(e.target) && !navToggle.contains(e.target)) {
+        setOpen(false);
+      }
     });
     window.addEventListener("keydown", (e) => {
       if (e.key === "Escape") setOpen(false);

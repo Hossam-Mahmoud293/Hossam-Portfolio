@@ -788,7 +788,6 @@ a.ext:focus-visible {
 }
 .chip:hover,
 .chip:focus-visible {
-  /* transform: translateY(-1px) scale(1.03); */
   border-color: rgba(124, 107, 255, 0.7);
   background: linear-gradient(
     180deg,
